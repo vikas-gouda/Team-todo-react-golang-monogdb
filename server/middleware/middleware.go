@@ -20,7 +20,7 @@ import (
 var collection *mongo.Collection
 
 func init() {
-	loadEnv()
+	//loadEnv()
 	createDBInstance()
 }
 

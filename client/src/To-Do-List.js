@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from "axios"; // Import Axios for making HTTP requests
 import { Card, Header, Form, Input, Icon } from "semantic-ui-react"; // Import Semantic UI React components
 
-let endpoint = "http://localhost:9000"; // Define API endpoint
+let endpoint = "https://todo-react-golang-monogdb.onrender.com"; // Define API endpoint
 
 class TodoList extends Component {
     constructor(props) {
